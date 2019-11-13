@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" parallel = "false">
+	<test name="Search Test Chrome">
+		<parameter name="driverType" value="CHROME" />
+		<classes>
+			<class name="com.vuukle.blog.test.runner.TestRunner" />
+		</classes>
+	</test>
+</suite>
